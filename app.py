@@ -38,16 +38,16 @@ else:
     data = st.session_state['datakey']
     mkt = st.session_state['mskey']
 
-page1 = st.Page('pages/dashboard.py',title='Dashboard')
-page2 = st.Page('pages/revenue.py',title='Revenue')
-page4 = st.Page('pages/kpis.py',title='KPIs')
+page1 = st.Page('pages/Dashboard.py',title='Dashboard')
+page2 = st.Page('pages/Revenue.py',title='Revenue')
+page4 = st.Page('pages/Kpis.py',title='KPIs')
 page5 = st.Page('pages/trends.py',title='Trends/Seasonality')
 page6 = st.Page('pages/spend.py',title='Marketing Spend')
 page7 = st.Page('pages/segment.py',title='Segmentation-Heuristic')
 page8 = st.Page('pages/kmeans.py',title='Segmentation-KMeans')
 page9 = st.Page('pages/crosseda.py',title='Cross Selling Products')
 page10 = st.Page('pages/cohort.py',title='Cohort Analysis')
-page99 = st.Page('pages/rawdata.py',title='Raw Data')
+page99 = st.Page('pages/Rawdata.py',title='Raw Data')
 
 pg = st.navigation([page1,page2,page4,page5,page6,page7,page8,page9,page10,page99])
 st.set_page_config(page_title='Customer Behavior')
