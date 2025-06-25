@@ -47,7 +47,7 @@ page7 = st.Page('pages/segment.py',title='Segmentation-Heuristic')
 page8 = st.Page('pages/kmeans.py',title='Segmentation-KMeans')
 page9 = st.Page('pages/crosseda.py',title='Cross Selling Products')
 page10 = st.Page('pages/cohort.py',title='Cohort Analysis')
-page99 = st.Page('pages/Rawdata.py',title='Raw Data')
+page99 = st.Page('pages/RawData.py',title='Raw Data')
 
 pg = st.navigation([page1,page2,page4,page5,page6,page7,page8,page9,page10,page99])
 st.set_page_config(page_title='Customer Behavior')
